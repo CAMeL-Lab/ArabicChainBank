@@ -9,7 +9,7 @@ This project presents version 1.0 of the Arabic ChainBank, the first derivationa
 
 ## Data
 
-The data for this version is extracted from CamelMorph v1.0, which provides the essential morphological features required for constructing the ChainBank[lemmas](). If you are only interested in replicating our experiment, you only need the data provided as a sample under the folder [data]()
+The data for this version is extracted from CamelMorph v1.0, which provides the essential morphological features required for constructing the ChainBank [lemmas](). If you are only interested in replicating our experiment, you only need the data provided as a sample under the folder [data]()
 
 ## The ChainBank
 
