@@ -4,7 +4,7 @@
 
 This project presents version 1.0 of the Arabic ChainBank, the first derivational resource for Modern Standard Arabic. The ChainBank is designed to link all derivatives that belong to the same derivational family in the form of a chain, beginning with the root and progressing through successive derived forms. Each chain captures the relationships between a base form and its derivatives, offering insights into how words evolve morphologically while maintaining their semantic and grammatical connections. The Arabic ChainBank is composed of two primary data sources: a knowledge graph-based network of abstract patterns [abstract network](https://github.com/RMarzouk/Arabic_ChaiBank/blob/main/Abstract%20Network/CamelMorph_Alignment%20-%20CANONIC_DATA.tsv)  and the database of multidialectal morphological analyzer  [camel_morph](https://github.com/CAMeL-Lab/camel_morph).
 
-![tree_chart.png](https://github.com/RMarzouk/Arabic-chainbank/blob/main/tree_chart.png)
+![tree_chart.png](https://github.com/CAMeL-Lab/ArabicChainBank/blob/main/tree_chart.png)
 
 
 ## Data
