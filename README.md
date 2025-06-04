@@ -77,8 +77,28 @@ The scripts used for generating the data files are released under the [MIT licen
 
 ## Authors
 
-Reham Marzouk
-Nizar Habash
+* Reham Marzouk
+* Nizar Habash
 
 ## Citation 
-The framwork of ChainBank 1.0 is introduced in a paper buplished in COLING 2025. If you find the database of Arabic ChainBank is useful in your research, please cite our [paper](https://aclanthology.org/2025.abjadnlp-1.9/)
+The framwork of ChainBank 1.0 is introduced in a paper published in COLING 2025. If you find the database of Arabic ChainBank is useful in your research, please cite our [paper](https://aclanthology.org/2025.abjadnlp-1.9/)
+
+Reham Marzouk, Sondos Krouna, and Nizar Habash. 2025. A Derivational ChainBank for Modern Standard Arabic. In Proceedings of the 1st Workshop on NLP for Languages Using Arabic Script, pages 78–87, Abu Dhabi, UAE. Association for Computational Linguistics.
+
+```
+@inproceedings{marzouk-etal-2025-derivational,
+    title = "A Derivational {C}hain{B}ank for {M}odern {S}tandard {A}rabic",
+    author = "Marzouk, Reham  and
+      Krouna, Sondos  and
+      Habash, Nizar",
+    editor = "El-Haj, Mo",
+    booktitle = "Proceedings of the 1st Workshop on NLP for Languages Using Arabic Script",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.abjadnlp-1.9/",
+    pages = "78--87",
+    abstract = "We introduce the new concept of an Arabic Derivational Chain Bank (CHAINBANK) to leverage the relationship between form and meaning in modeling Arabic derivational morphology. We constructed a knowledge graph network of abstract patterns and their derivational relations, and aligned it with the lemmas of the CAMELMORPH morphological analyzer database. This process produced chains of derived words' lemmas linked to their correspond- ing lemma bases through derivational relations, encompassing 23,333 derivational connections. The CHAINBANK is publicly available.1"
+}
+```
