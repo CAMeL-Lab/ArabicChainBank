@@ -22,7 +22,7 @@ This process is carried out in three main stages:
 **Building Trees:** Recursively generating derivational trees starting from each root, src/TreeBuilding/build_tree.py.
 **Visualizing Trees:** Creating graphical representations of the derivational structures, src\DataMerging\merge_data.py.
 
- If you are interested in running a sample of data to test the adopted method to build the Chainbank, you can follow the instrcutions as in the following section. To run them using the full data extracted from Camelmorph you should to add the directory of this data.
+ If you are interested in running a sample of data to test the adopted method to build the Chainbank, you can follow the instrcutions as in the following section. To run them using the full data extracted from CAMelMorph you should to add the directory of this data.
 
 ## Running Generation Scripts
 
@@ -31,7 +31,7 @@ Below are instructions on how to generate a ChainBank using an input dataset as 
 **Note:** In the below code snippets, we use a smaller set of lemmas as input, data file `data/lemmas_sample.csv`. To generate the full ChainBank, use file `data/lemmas.csv` instead where appropriate.
 
 ### Prerequisites 
-Before using the provided scrits, ensure you have the required libraries installed. You can install them using the following command:
+Before using the provided scripts, ensure you have the required libraries installed. You can install them using the following command:
 
 ```bash
 pip install -r requirements.txt
