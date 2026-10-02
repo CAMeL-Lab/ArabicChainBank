@@ -9,7 +9,9 @@ from pathlib import Path
 
 def visualize_trees(input_file: Path, output_file: Path):
     df = pd.read_csv(input_file)
-    df[['PARENT_LEMMA_ARA', 'LEMMA_ARA']] = df[['PARENT_LEMMA_ARA', 'LEMMA_ARA']].fillna('')
+    df[['PARENT_LEMMA_ARA', 'LEMMA_ARA']] = (
+        df[['PARENT_LEMMA_ARA', 'LEMMA_ARA']].astype(object).fillna('')
+    )
 
     with PdfPages(output_file) as pdf:
         for root, group_df in df.groupby('ROOT'):

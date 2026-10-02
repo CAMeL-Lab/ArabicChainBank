@@ -39,7 +39,7 @@ def merge_and_clean_data(df_lemma, df_relations):
     merged_data = pd.merge(df_lemma, df_relations, on=['PATTERN_ABSTRACT', 'POS'], how='inner')
     merged_data.drop_duplicates(inplace=True)
     merged_data.replace([np.inf, -np.inf], np.nan, inplace=True)
-    merged_data.fillna('', inplace=True)
+    merged_data = merged_data.astype(object).fillna('')
     return merged_data.astype(str)
 
 
